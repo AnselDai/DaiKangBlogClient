@@ -68,7 +68,7 @@ class Nav extends React.Component {
                     </div>
                 </div>
                 <div className="info-panel col-md-12 col-lg-12 hidden-xs hidden-sm">
-                    <div className="site-info col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                    <div className="site-info col-md-12 col-lg-12">
                         <div className="row">
                             <div className="have-border info col-md-4 col-lg-4">
                                 <a>
