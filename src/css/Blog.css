@@ -2,7 +2,6 @@
     width: 100%;
 }
 .blog-content {
-    margin: 80px;
     color: #555;
     font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
     font-size: 14px;
@@ -12,5 +11,16 @@
     width: 80%;
     height: auto;
     margin-left: 10%;
-    padding: 8px;
+    padding: 2px;
+    border: 2px solid #999;
+}
+@media only screen and (max-width: 991px) {
+    .blog-content {
+        margin: 20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .blog-content {
+        margin: 80px;
+    }
 }
