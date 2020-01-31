@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    background: transparent;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+hr {
+    background-color: white;
+}

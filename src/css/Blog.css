@@ -1,0 +1,16 @@
+.blog-div {
+    width: 100%;
+}
+.blog-content {
+    margin: 80px;
+    color: #555;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+.blog-content .myImg {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    padding: 8px;
+}

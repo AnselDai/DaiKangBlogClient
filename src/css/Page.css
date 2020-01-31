@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: url('../Images/background.jpg');
+  }
+  outside-div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .banner {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .root {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .leftPage {
+    /* background-color: rebeccapurple; */
+    height: 90%;
+  }
+  
+  .rightPage {
+    /* background-color: rosybrown; */
+    height: 50%;
+    background-color: white;
+  }
+  .page, .row {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  @media only screen and (max-width: 991px) {
+    body {
+      background: white;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    body {
+      background: url('../Images/background.jpg');
+    }
+  }
+  .banner-div {
+    width: 100%; 
+    height: 3px; 
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    }

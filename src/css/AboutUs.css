@@ -1,0 +1,25 @@
+.about-us {
+    color: #555;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    margin: 60px 10px 400px 10px;
+    height: 90%;
+    text-align: center;
+}
+.about-us .myImg {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    border: 2px solid #999;
+    padding: 3px;
+}
+.root {
+    height: 100%;
+}
+p.love {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

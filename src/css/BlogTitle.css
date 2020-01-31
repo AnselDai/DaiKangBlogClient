@@ -1,0 +1,27 @@
+.title-h1 {
+    text-align: center;
+}
+.post-link-title {
+    font-size: 18px;
+    color: #555;
+    border-bottom: none;
+    line-height: 1.2;
+    vertical-align: top;
+    cursor: pointer;
+}
+.post-time, .tag {
+    color: #999;
+    font-size: 12px;
+}
+.v-divider {
+    border-left: 1px double #999;
+}
+
+.category a, .category a:hover {
+    color: #999;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.category a:hover {
+    font-weight: 500;
+}
