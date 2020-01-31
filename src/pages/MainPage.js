@@ -40,10 +40,10 @@ class MainPage extends React.Component {
                 <div id="root" className="root container">
                     <div className="page row">
                         <div className="row">
-                            <div id="nav" className="leftPage hidden-xs hidden-sm col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
+                            <div id="nav" className="leftPage hidden-xs hidden-sm col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
                                 <Nav blogcount={this.state.blogcount} active="mainPage"/>
                             </div>
-                            <div id="overview" className="rightPage col-xs-12 col-sm-12 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
+                            <div id="overview" className="rightPage col-xs-12 col-sm-12 col-md-7 col-lg-7">
                                 {this.state.overview_data.map(overview => <BlogOverview key={overview.id} id={overview.id} title={overview.title} postTime={overview.postTime} tags={overview.tags} description={overview.description} headImg={overview.headImg} />)}
                             </div>
                         </div>
