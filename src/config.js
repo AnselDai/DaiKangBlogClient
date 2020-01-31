@@ -1,4 +1,4 @@
 export default {
-    base_url: 'http://localhost:3000',
-    server_url: 'http://localhost:9000'
+    base_url: 'http://kangyu.我爱你',
+    server_url: 'http://kangyu.我爱你:9000'
 }
